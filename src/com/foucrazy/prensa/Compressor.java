@@ -1,4 +1,4 @@
-package com.foucrazy;
+package com.foucrazy.prensa;
 
 import java.io.File;
 import java.io.FileFilter;
@@ -11,7 +11,7 @@ import net.lingala.zip4j.exception.ZipException;
 import net.lingala.zip4j.model.ZipParameters;
 import net.lingala.zip4j.util.Zip4jConstants;
 
-import static com.foucrazy.Main.log;
+import static com.foucrazy.prensa.Main.log;
 
 public class Compressor {
 	

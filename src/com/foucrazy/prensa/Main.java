@@ -1,4 +1,4 @@
-package com.foucrazy;
+package com.foucrazy.prensa;
 
 import java.io.File;
 import java.io.IOException;
@@ -11,6 +11,8 @@ public class Main {
 	public static void main(String[] args) {
 		if (args.length < 3){
 			log("Faltan argumentos");
+			log("java -jar prensa.jar password dirToCompress compressSubDirectories");
+			log("java -jar prensa.jar pruebas123 e:\\\\FG\\\\imagenes true");
 			System.exit(-1);
 		}
 		
